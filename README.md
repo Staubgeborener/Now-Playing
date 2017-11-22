@@ -17,6 +17,10 @@ Author: Erik Jansson - <hello@erikjansson.net>
 
 1. Assuming the class file resides in the same directory as your
  script, include it as such: `require_once 'nowplaying.class.php';`
+ 
+ (Edit by Staubgeborener: With this fork, you also can just use
+ `	<?php require_once 'ShowLastPlayedSong.php'; ?>`
+ to view the artist, the song, the albumcover and a message 'last heard' or 'currently played')
 
 2. Then, instantiate the class: `$nowPlaying = new NowPlaying('Username', 'API key');`
     - The first parameter is the Last.fm username you want data from.
